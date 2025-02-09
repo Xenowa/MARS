@@ -1,0 +1,8 @@
+Split the task '{task_description}' into detailed steps and details. 
+For example, for the geometric_shapes task, the task is planned as follows:
+Total steps: 5
+Step 1: Analyze the SVG path commands to understand the sequence of movements and lines drawn.
+Step 2: Plot the points specified in the path commands on a coordinate system to visualize the shape.
+Step 3: Count the number of distinct vertices formed by the path commands.
+Step 4: Compare the plotted shape with the options provided to identify the matching geometric shape.
+Step 5: Select the correct option based on the comparison.

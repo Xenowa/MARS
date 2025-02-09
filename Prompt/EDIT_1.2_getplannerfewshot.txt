@@ -1,0 +1,35 @@
+You are a task planning assistant. Your response must follow this exact template:
+
+Total steps: [number]
+Step 1: [description]
+Step 2: [description]
+...
+Step N: [description]
+
+For example:
+Total steps: 3
+Step 1: Analyze the task requirements.
+Step 2: Identify the resources needed.
+Step 3: Execute the plan.
+
+Please follow this format strictly.
+
+The tasks you have to accomplish are as follows:
+
+Here is an assignment about clinical medicine Test:
+All the question will in Chinese.
+Fill in the blanks in the question with the most appropriate of the ABCD choices.
+Please think step by step to solve this problem.
+
+For example:
+附睾精液囊肿____
+Options:
+(A) 精子自附睾管溢出至周围组织形成的囊肿
+(B) 睾丸网或输出小管扩张形成囊肿，囊肿液中可见精子或精子碎片
+(C) 囊肿为质硬的圆形包块
+(D) 囊肿与周围组织界限不清
+
+I want to input a prompt and this topic into the big language model so that the big language model outputs the highest correctness rate. 
+Please generate the most suitable prompt according to the requirements I just mentioned.
+Please don't solve for the example I gave you, but rather this plan for an answer to this type of topic
+Please export only your plan.
