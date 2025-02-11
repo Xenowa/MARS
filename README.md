@@ -8,7 +8,7 @@ We propose a Multi-Agent Approach Integrating Socratic Guidance (MARS). Specific
 
 This project supports both `pip` and `conda` for environment setup. Choose the method that suits your setup.
 
-### **🔹 Method 1: Using `requirements.txt` **
+### 🔹 Method 1: Using `requirements.txt` 
 
 If you are using **pip**, follow these steps to install all dependencies:
 
@@ -22,7 +22,7 @@ myenv\Scripts\activate     # On Windows
 pip install -r requirements.txt
 ```
 
-### **🔹 Method 2: Using `environment.yml` --[Recommend!]**
+### 🔹 Method 2: Using `environment.yml` --[Recommend!]
 
 If you are using **conda**, follow these steps:
 
