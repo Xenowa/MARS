@@ -2,7 +2,8 @@
 
 We propose a Multi-Agent Approach Integrating Socratic Guidance (MARS). Specifically, our multi-agent architecture autonomously plans the optimization path to mitigate uncertainty and employs a "teacher-critic-student" Socratic guidance interaction pattern to iteratively optimize the prompts while providing interpretability. 
 
-###### 
+----------------------------------------------
+
 
 ## 📌 Environment Setup Guide
 
@@ -91,16 +92,16 @@ The results of each run will be displayed in ***Output*** folder.
 
 ## 🗂️ Documentation
 
-###### Dataset 
+#### Dataset 
 
 The data used in this experiment are stored in two folders, ***Dataset*** and ***Dataset_format***. The Dataset folder stores the original dataset of the data used in this experiment, and the Dataset_format folder stores the processed data that can be used directly.
 
 The data in Dataset_format is the result of processing the Dataset's corresponding task using the preprocess_XX.py file. The ***Preprocess/preprocess_XX.py*** file used to process the data is given here.
 
-###### Preprocess
+#### Preprocess
 The Preprocess folder holds the preprocessors used in the different tasks in this experiment, the results of running these programs have been placed in the ***Dataset_format*** folder.
 
-###### Work process
+#### Work process
 
 ***run.sh***: script for automated execution of code optimization
 
@@ -112,6 +113,6 @@ The Preprocess folder holds the preprocessors used in the different tasks in thi
 
 
 
-###### Results
+#### Results
 
-The best prompt for all tasks after iteration is in the ***Optimized prompt* **folder.
+The best prompt for all tasks after iteration is in the ***Optimized prompt***folder.
