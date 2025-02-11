@@ -4,7 +4,7 @@ import random
 import os
 
 # Define the path to the input JSON file
-input_file_path = './Dataset/BBH/causal_judgement.json'
+input_file_path = '../Dataset/BBH/causal_judgement.json'
 
 # Open and load the JSON file containing the dataset
 with open(input_file_path, 'r', encoding='utf-8') as file:
@@ -29,7 +29,7 @@ df = pd.DataFrame({
 base_name = os.path.splitext(os.path.basename(input_file_path))[0]
 
 # Construct the output file path using the base name
-output_file_path = f'./Dataset_format/BBH/{base_name}.csv'
+output_file_path = f'../Dataset_format/BBH/{base_name}.csv'
 
 # Save the DataFrame to a CSV file
 df.to_csv(output_file_path, index=False, encoding='utf-8')

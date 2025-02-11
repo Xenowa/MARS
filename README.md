@@ -95,9 +95,10 @@ The results of each run will be displayed in ***Output*** folder.
 
 The data used in this experiment are stored in two folders, ***Dataset*** and ***Dataset_format***. The Dataset folder stores the original dataset of the data used in this experiment, and the Dataset_format folder stores the processed data that can be used directly.
 
-The data in Dataset_format is the result of processing the Dataset's corresponding task using the preprocess_XX.py file. The ***preprocess_XX.py*** file used to process the data is given here.
+The data in Dataset_format is the result of processing the Dataset's corresponding task using the preprocess_XX.py file. The ***Preprocess/preprocess_XX.py*** file used to process the data is given here.
 
-
+###### Preprocess
+The Preprocess folder holds the preprocessors used in the different tasks in this experiment, the results of running these programs have been placed in the ***Dataset_format*** folder.
 
 ###### Work process
 
