@@ -14,11 +14,6 @@ This project supports both `pip` and `conda` for environment setup. Choose the m
 If you are using **pip**, follow these steps to install all dependencies:
 
 ```bash
-# Create a virtual environment (optional but recommended)
-python -m venv myenv
-source myenv/bin/activate  # On macOS/Linux
-myenv\Scripts\activate     # On Windows
-
 # Install dependencies
 pip install -r requirements.txt
 ```
@@ -32,7 +27,7 @@ If you are using **conda**, follow these steps:
 conda env create -f environment.yml
 
 # Activate the environment
-conda activate myenv
+conda activate MultiAgent
 ```
 
 
@@ -66,7 +61,7 @@ DATASET_PATH = './Dataset_format/BBH/geometric_shapes.csv'
 
 ### 🔹 step 3: Setting Prompts(optional)
 
-Depending on the task you want to use, select the corresponding content from the ***ALL_userproxy_task_input.md*** and ***ALL_prompt_planner_template.md*** files to copy into ***Prompt/EDIT_1_userproxy_task_input.txt*** and ***Prompt/EDIT_2_prompt_planner_template.txt***.
+Depending on the task you want to use, select the corresponding content from the ***Prompt/ALL_userproxy_task_input.md*** and ***Prompt/ALL_prompt_planner_template.md*** files to copy into ***Prompt/EDIT_1_userproxy_task_input.txt*** and ***Prompt/EDIT_2_prompt_planner_template.txt***.
 
 Of course, if you want to optimize other tasks, you can also write the content in the ***Prompt/EDIT_1_userproxy_task_input.txt*** and ***Prompt/EDIT_2_prompt_planner_template.txt*** directly yourself.
 
@@ -78,13 +73,13 @@ We have designed the program to support two question types. Exactly which one to
 
 If it is a choice question please run:
 
-```
+```bash
 bash run.sh choice
 ```
 
 If it is a short answer question, please run:
 
-```
+```bash
 bash run.sh short_answer
 ```
 
@@ -92,16 +87,20 @@ The results of each run will be displayed in ***Output*** folder.
 
 ## 🗂️ Documentation
 
-#### Dataset 
+### Dataset 
 
 The data used in this experiment are stored in two folders, ***Dataset*** and ***Dataset_format***. The Dataset folder stores the original dataset of the data used in this experiment, and the Dataset_format folder stores the processed data that can be used directly.
 
 The data in Dataset_format is the result of processing the Dataset's corresponding task using the preprocess_XX.py file. The ***Preprocess/preprocess_XX.py*** file used to process the data is given here.
 
-#### Preprocess
+
+
+### Preprocess
 The Preprocess folder holds the preprocessors used in the different tasks in this experiment, the results of running these programs have been placed in the ***Dataset_format*** folder.
 
-#### Work process
+
+
+### Work process
 
 ***run.sh***: script for automated execution of code optimization
 
@@ -113,6 +112,6 @@ The Preprocess folder holds the preprocessors used in the different tasks in thi
 
 
 
-#### Results
+### Results
 
-The best prompt for all tasks after iteration is in the ***Optimized prompt***folder.
+The best prompt for all tasks after iteration is in the ***Optimized prompt*** folder.

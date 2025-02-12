@@ -3,7 +3,9 @@
 The following content is part of the prompt used by the PlannerAgent during the training of the BBH task in this program. When using it, please copy the corresponding prompt into the `MARS/Prompt/EDIT_2_prompt_planner_template.txt` file.
 
 
-### Boolean  Expressions
+
+
+## Boolean  Expressions
 
 Split the task '{task_description}' into detailed steps and details. 
 For example, for the Boolean Expressions task, the task is planned as follows:
@@ -16,7 +18,7 @@ Step 5: Direct the model to output only the final truth value (True or False) wi
 
 
 
-### Disambiguation QA
+## Disambiguation QA
 
 Split the task '{task_description}' into detailed steps and details. 
 For example, for the Disambiguation QA task, the task is planned as follows:
@@ -28,7 +30,7 @@ Step 4: Match the conclusion with the provided options and select the correct an
 
 
 
-### Formal Fallacies Syllogisms  Negation
+## Formal Fallacies Syllogisms  Negation
 
 Split the task '{task_description}' into detailed steps and details. 
 For example, for the Formal Fallacies Syllogisms Negation task, the task is planned as follows:
@@ -40,7 +42,7 @@ Step 4: Format the prompt to include clear instructions and options (e.g., "vali
 
 
 
-### Geometric Shapes
+## Geometric Shapes
 
 Split the task '{task_description}' into detailed steps and details. 
 For example, for the Geometric Shapes task, the task is planned as follows:
@@ -53,7 +55,7 @@ Step 5: Test and refine the prompt iteratively by providing sample SVG paths and
 
 
 
-### Ruin Names
+## Ruin Names
 
 Split the task '{task_description}' into detailed steps and details. 
 For example, for the ruin names task, the task is planned as follows:
@@ -65,7 +67,7 @@ Step 4: Review and refine the prompt to maximize clarity and effectiveness in gu
 
 
 
-### Sports Understanding
+## Sports Understanding
 
 Split the task '{task_description}' into detailed steps and details. 
 For example, for the Sports Understanding task, the task is planned as follows:
