@@ -450,7 +450,20 @@ class TargetAgent(BaseChatAgent):
         pass
     
     def check_stop_condition(self) -> bool:
-        return self.call_count >= 10
+        # condition 1
+        if self.call_count >= 10:
+            return True
+        
+        # conition2: The recent accuracy change is below the threshold.
+        if len(self.prompt_history) >= 2:
+            last_accuracy = self.prompt_history[-1][1]
+            second_last_accuracy = self.prompt_history[-2][1]
+            accuracy_diff = abs(last_accuracy - second_last_accuracy)
+            
+            if accuracy_diff < 0.01:
+                return True
+        
+        return False
 
 
 
